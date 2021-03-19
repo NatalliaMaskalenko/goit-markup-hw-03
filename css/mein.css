@@ -1,0 +1,235 @@
+/* Общие настройки страницы */
+body {
+  background-color: #ffffff;
+  color: #757575;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-dark: #2f303a;
+  --color-accent: #2196f3;
+  --background-color-elements: #f5f4fa;
+  --color-text-major: #212121;
+  --color-text-main: #757575;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.items {
+  list-style: none;
+}
+
+.pagination .pagination-list.current {
+  color: var(--color-accent);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Шапка страницы */
+.logo {
+  color: var(--color-accent);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.header .tiny {
+  color: #000000;
+}
+
+.pagination-list {
+  color: var(--color-text-major);
+  text-decoration: none;
+}
+
+.contacts-list {
+  color: var(--color-text-main);
+  text-decoration: none;
+}
+
+.pagination-list:hover,
+.pagination-list:focus,
+.contacts-list:hover,
+.contacts-list:focus {
+  color: var(--color-accent);
+}
+
+.pagination-list,
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-list {
+  color: var(--color-text-main);
+}
+
+/* Контент главной страницы */
+/* Герой */
+.hero {
+  background-color: var(--color-dark);
+}
+
+.hero-title {
+  color: var(--color-white);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--color-white);
+  background-color: var(--color-accent);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--color-accent);
+  background-color: var(--color-white);
+}
+
+/* Наши приемущества */
+.subtitle {
+  color: var(--color-text-major);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.text-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Чем мы занимаемся */
+.title {
+  color: var(--color-text-major);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+.team {
+  background-color: var(--background-color-elements);
+}
+.team-list {
+  background-color: var(--color-white);
+}
+
+.team-subject {
+  color: var(--color-text-major);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-member {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Контент страницы портфолио */
+.button {
+  background-color: var(--background-color-elements);
+  color: var(--color-text-major);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.gallery-title {
+  color: var(--color-text-major);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.gallery-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* Подвал страницы */
+.footer {
+  background-color: var(--color-dark);
+}
+
+.footer .tiny {
+  color: var(--color-white);
+}
+
+.address-text {
+  color: var(--color-white);
+}
+.address-list {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.address-list:hover,
+.address-list:focus {
+  color: var(--color-accent);
+}
+
+.address-text,
+.address-list {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
