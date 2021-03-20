@@ -29,6 +29,8 @@ body {
 
 .items {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .pagination .pagination-list.current {
@@ -38,6 +40,20 @@ body {
 button {
   font-family: inherit;
   cursor: pointer;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
 }
 
 /* Шапка страницы */
@@ -89,6 +105,7 @@ button {
 /* Герой */
 .hero {
   background-color: var(--color-dark);
+  text-align: center;
 }
 
 .hero-title {
@@ -100,6 +117,8 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -110,6 +129,12 @@ button {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+
+  border-radius: 4px;
+  padding: 10px 32px;
+  text-align: center;
+  border: none;
+  min-width: 200px;
 }
 
 .hero-button:hover,
@@ -119,6 +144,10 @@ button {
 }
 
 /* Наши приемущества */
+.description {
+  padding: 94px 0;
+}
+
 .subtitle {
   color: var(--color-text-major);
 
@@ -127,15 +156,23 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 
 .text-description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  margin-bottom: 0;
 }
 
 /* Чем мы занимаемся */
+.work {
+  padding-bottom: 94px;
+}
+
 .title {
   color: var(--color-text-major);
 
@@ -144,11 +181,14 @@ button {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
 }
 
 /* Наша команда */
 .team {
   background-color: var(--background-color-elements);
+  padding: 94px 0;
 }
 .team-list {
   background-color: var(--color-white);
