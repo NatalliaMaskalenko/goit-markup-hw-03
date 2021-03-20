@@ -25,6 +25,7 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+  margin-bottom: 0;
 }
 
 .items {
@@ -192,6 +193,7 @@ p {
 }
 .team-list {
   background-color: var(--color-white);
+  padding-bottom: 30px;
 }
 
 .team-subject {
@@ -202,6 +204,8 @@ p {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 10px;
 }
 
 .team-member {
@@ -209,10 +213,20 @@ p {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 0;
 }
 
 /* Контент страницы портфолио */
-.button {
+.portfolio {
+  padding: 94px 0;
+}
+
+.navigation {
+  margin-bottom: 50px;
+}
+
+.portfolio .items .button {
   background-color: var(--background-color-elements);
   color: var(--color-text-major);
 
@@ -221,12 +235,21 @@ p {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: none;
+  text-align: center;
 }
 
 .button:hover,
 .button:focus {
   background-color: var(--color-accent);
   color: var(--color-white);
+}
+
+.gallery-list {
+  padding-bottom: 20px;
 }
 
 .gallery-title {
@@ -236,12 +259,16 @@ p {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
 }
 
 .gallery-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+
+  margin-bottom: 0;
 }
 
 /* Подвал страницы */
