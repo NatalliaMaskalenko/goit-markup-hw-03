@@ -65,7 +65,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -414,12 +414,17 @@ img {
 
 .address-text {
   color: var(--color-white);
-  margin-bottom: 0;
+  margin-bottom: 9px;
 }
 .address-item {
   color: rgba(255, 255, 255, 0.6);
+
   text-decoration: none;
   display: block;
+}
+
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-item:hover,
